@@ -14,12 +14,13 @@ header {
 	background-color: rgba(94, 41, 154, .8);
 	z-index: 2;
     position: relative;
+    top: -80px;
 }
 header .container {
 	position: relative;
 }
-header .header-black {
-	background-color: #000;
+header .hea der -black {
+	background-color: #F89406;
 	height: 41px;
 }
 header .header-black li {
@@ -105,6 +106,7 @@ header #logotipo {
 }
 #menu {
 	margin: 12px 0;
+
 }
 #menu li {
 	display: inline-block;
@@ -150,7 +152,7 @@ header #logotipo {
 	position: relative;
 	background: url("../img/baner.png") no-repeat;
 	background-position: -1px 0px;
-	top: -130px;
+	top: -170px;
 }
 #banner h1 {
 	color: #F9BF3B;
@@ -182,6 +184,27 @@ header #logotipo {
 	font-size: 48px;
 	text-transform: uppercase;
 	text-align: center;
+}
+#msmcli {
+	text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
+    position: relative;
+    top: -157px;
+    color:#5E2799;
+	font-family: 'OpenSans-Light';
+	text-align: right;
+	font-size: 18px;
+
+
+}
+#msmcli2 {
+	text-shadow:2px 2px 2px rgba(0, 0, 0, .45);
+    position: relative;
+    top: -157px;
+    color:#5E2799;
+	font-family: 'OpenSans-Light';
+	font-size: 18px;
+
+
 }
 #news hr {
 	border:#FDE192 solid 8px;
